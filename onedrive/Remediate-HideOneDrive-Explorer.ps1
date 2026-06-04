@@ -1,5 +1,6 @@
 # ============================================================
 # Script      : Remediate-HideOneDrive-Explorer.ps1
+# Auteur      : Soham KOPP
 # Objectif    : Masquer OneDrive / OneDrive Entreprise dans l'Explorateur Windows
 # Contexte    : SYSTEM via Intune Remediation
 # Logs        : C:\ProgramData\Microsoft\IntuneManagementExtension\Logs
