@@ -1,25 +1,24 @@
-Microsoft Intune detection and remediation scripts for Windows endpoint configuration, automation and security hardening.
-
-## Purpose
-
-This repository centralizes practical Microsoft Intune remediation scripts used to detect and correct Windows endpoint configuration issues.
-
-Each remediation contains:
-
-- A detection script
-- A remediation script
-- Documentation
-- Risks and limitations
-- Rollback guidance
-
 ## Repository structure
+
+Each top-level folder represents one Intune remediation package.
 
 ```text
 .
+├── README.md
+├── LICENSE
+├── .gitignore
 ├── onedrive/
 │   ├── README.md
 │   ├── detection/
 │   ├── remediation/
 │   └── docs/
-├── LICENSE
-└── README.md
+├── bitlocker/
+│   ├── README.md
+│   ├── detection/
+│   ├── remediation/
+│   └── docs/
+└── local-admins/
+    ├── README.md
+    ├── detection/
+    ├── remediation/
+    └── docs/
